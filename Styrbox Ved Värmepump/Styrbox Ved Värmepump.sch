@@ -1,0 +1,448 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relays
+LIBS:Styrbox Ved Värmepump-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Omkoppling Ved / Värmepump"
+Date "27 jan 2015"
+Rev "3"
+Comp "Johan Svendsrud El AB / Stens El"
+Comment1 "Morten Svendsen"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RELAY_4P K2
+U 1 1 534BA33E
+P 4300 3700
+F 0 "K2" H 4250 4950 70  0000 C CNN
+F 1 "RELAY_4P" H 4450 3200 70  0000 C CNN
+F 2 "~" H 4300 3700 60  0000 C CNN
+F 3 "~" H 4300 3700 60  0000 C CNN
+	1    4300 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L RELAY_4P K1
+U 1 1 534BA34D
+P 4750 6400
+F 0 "K1" H 4200 6800 70  0000 C CNN
+F 1 "RELAY_4P" H 4900 5900 70  0000 C CNN
+F 2 "~" H 4750 6400 60  0000 C CNN
+F 3 "~" H 4750 6400 60  0000 C CNN
+	1    4750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P12
+U 1 1 534BA35C
+P 3750 2450
+F 0 "P12" H 3830 2450 40  0000 L CNN
+F 1 "CONN_1" H 3750 2505 30  0001 C CNN
+F 2 "" H 3750 2450 60  0000 C CNN
+F 3 "" H 3750 2450 60  0000 C CNN
+	1    3750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P13
+U 1 1 534BA36B
+P 3950 2450
+F 0 "P13" H 4030 2450 40  0000 L CNN
+F 1 "CONN_1" H 3950 2505 30  0001 C CNN
+F 2 "" H 3950 2450 60  0000 C CNN
+F 3 "" H 3950 2450 60  0000 C CNN
+	1    3950 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P9
+U 1 1 534BA37A
+P 2750 2450
+F 0 "P9" H 2830 2450 40  0000 L CNN
+F 1 "CONN_1" H 2750 2505 30  0001 C CNN
+F 2 "" H 2750 2450 60  0000 C CNN
+F 3 "" H 2750 2450 60  0000 C CNN
+	1    2750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P10
+U 1 1 534BA389
+P 3350 2450
+F 0 "P10" H 3430 2450 40  0000 L CNN
+F 1 "CONN_1" H 3350 2505 30  0001 C CNN
+F 2 "" H 3350 2450 60  0000 C CNN
+F 3 "" H 3350 2450 60  0000 C CNN
+	1    3350 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_1 P11
+U 1 1 534BA398
+P 3550 2450
+F 0 "P11" H 3630 2450 40  0000 L CNN
+F 1 "CONN_1" H 3550 2505 30  0001 C CNN
+F 2 "" H 3550 2450 60  0000 C CNN
+F 3 "" H 3550 2450 60  0000 C CNN
+	1    3550 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_1 P14
+U 1 1 534BA3A7
+P 4150 2450
+F 0 "P14" H 4230 2450 40  0000 L CNN
+F 1 "CONN_1" H 4150 2505 30  0001 C CNN
+F 2 "" H 4150 2450 60  0000 C CNN
+F 3 "" H 4150 2450 60  0000 C CNN
+	1    4150 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P15
+U 1 1 534BA3B6
+P 4350 2450
+F 0 "P15" H 4430 2450 40  0000 L CNN
+F 1 "CONN_1" H 4350 2505 30  0001 C CNN
+F 2 "" H 4350 2450 60  0000 C CNN
+F 3 "" H 4350 2450 60  0000 C CNN
+	1    4350 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P7
+U 1 1 534BA3C5
+P 2450 2450
+F 0 "P7" H 2530 2450 40  0000 L CNN
+F 1 "CONN_1" H 2450 2505 30  0001 C CNN
+F 2 "" H 2450 2450 60  0000 C CNN
+F 3 "" H 2450 2450 60  0000 C CNN
+	1    2450 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P8
+U 1 1 534BA3D4
+P 2600 2450
+F 0 "P8" H 2680 2450 40  0000 L CNN
+F 1 "CONN_1" H 2600 2505 30  0001 C CNN
+F 2 "" H 2600 2450 60  0000 C CNN
+F 3 "" H 2600 2450 60  0000 C CNN
+	1    2600 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 534BA3E3
+P 1450 2450
+F 0 "P3" H 1530 2450 40  0000 L CNN
+F 1 "CONN_1" H 1450 2505 30  0001 C CNN
+F 2 "" H 1450 2450 60  0000 C CNN
+F 3 "" H 1450 2450 60  0000 C CNN
+	1    1450 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_1 P2
+U 1 1 534BA3F2
+P 1250 2450
+F 0 "P2" H 1330 2450 40  0000 L CNN
+F 1 "CONN_1" H 1250 2505 30  0001 C CNN
+F 2 "" H 1250 2450 60  0000 C CNN
+F 3 "" H 1250 2450 60  0000 C CNN
+	1    1250 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_1 P1
+U 1 1 534BA401
+P 1050 2450
+F 0 "P1" H 1130 2450 40  0000 L CNN
+F 1 "CONN_1" H 1050 2505 30  0001 C CNN
+F 2 "" H 1050 2450 60  0000 C CNN
+F 3 "" H 1050 2450 60  0000 C CNN
+	1    1050 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 534BA410
+P 2050 2450
+F 0 "P6" H 2130 2450 40  0000 L CNN
+F 1 "CONN_1" H 2050 2505 30  0001 C CNN
+F 2 "" H 2050 2450 60  0000 C CNN
+F 3 "" H 2050 2450 60  0000 C CNN
+	1    2050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P4
+U 1 1 534BA41F
+P 1750 2450
+F 0 "P4" H 1830 2450 40  0000 L CNN
+F 1 "CONN_1" H 1750 2505 30  0001 C CNN
+F 2 "" H 1750 2450 60  0000 C CNN
+F 3 "" H 1750 2450 60  0000 C CNN
+	1    1750 2450
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3350 2600 3350 3300
+Wire Wire Line
+	4350 2600 4350 3300
+$Comp
+L CONN_1 P5
+U 1 1 534BA59C
+P 1900 2450
+F 0 "P5" H 1980 2450 40  0000 L CNN
+F 1 "CONN_1" H 1900 2505 30  0001 C CNN
+F 2 "" H 1900 2450 60  0000 C CNN
+F 3 "" H 1900 2450 60  0000 C CNN
+	1    1900 2450
+	0    -1   -1   0   
+$EndComp
+Text Notes 1000 2250 0    60   ~ 0
+PE
+Text Notes 1200 2250 0    60   ~ 0
+N
+Text Notes 1400 2250 0    60   ~ 0
+L
+Text Notes 1250 2050 1    60   ~ 0
+Matning 230V
+Text Notes 1900 2050 1    60   ~ 0
+Termostat NC
+Wire Wire Line
+	1250 2600 1250 6750
+Wire Wire Line
+	1450 2600 1450 6450
+$Comp
+L R R1
+U 1 1 534BAC29
+P 3250 4450
+F 0 "R1" V 3330 4450 40  0000 C CNN
+F 1 "100R" V 3257 4451 40  0000 C CNN
+F 2 "~" V 3180 4450 30  0000 C CNN
+F 3 "~" H 3250 4450 30  0000 C CNN
+	1    3250 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 534BAC38
+P 4150 4450
+F 0 "R2" V 4230 4450 40  0000 C CNN
+F 1 "5k6" V 4157 4451 40  0000 C CNN
+F 2 "~" V 4080 4450 30  0000 C CNN
+F 3 "~" H 4150 4450 30  0000 C CNN
+	1    4150 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4100 3250 4200
+Wire Wire Line
+	3600 4100 3600 4750
+Wire Wire Line
+	3600 4750 3250 4750
+Wire Wire Line
+	3250 4750 3250 4700
+Wire Wire Line
+	4150 4100 4150 4200
+Wire Wire Line
+	4450 4100 4450 4750
+Wire Wire Line
+	4450 4750 4150 4750
+Wire Wire Line
+	4150 4750 4150 4700
+Text Notes 3400 2250 1    60   ~ 0
+305
+Text Notes 3600 2250 1    60   ~ 0
+306
+Text Notes 3500 2000 1    60   ~ 0
+Värmepump
+Text Notes 3850 2000 1    60   ~ 0
+Till Utegivare\nVärmepump
+Text Notes 2500 2250 2    60   ~ 0
+PE
+Text Notes 2750 2250 2    60   ~ 0
+L
+Text Notes 2550 2250 0    60   ~ 0
+N
+Text Notes 2600 1600 3    60   ~ 0
+Circ.pump
+Text Notes 1700 2250 0    60   ~ 0
+PE
+Text Notes 4300 1150 3    60   ~ 0
+Framledningsgivare
+Text Notes 1850 2250 0    60   ~ 0
+L
+Text Notes 2000 2250 0    60   ~ 0
+Lt
+Wire Wire Line
+	2050 2600 2050 6650
+Wire Wire Line
+	1750 2600 1750 2800
+Wire Wire Line
+	1050 2800 2450 2800
+Wire Wire Line
+	2450 2800 2450 2600
+Connection ~ 1750 2800
+Wire Wire Line
+	1900 2600 1900 2950
+Wire Wire Line
+	1900 2950 1450 2950
+Connection ~ 1450 2950
+Wire Wire Line
+	2600 2600 2600 3100
+Wire Wire Line
+	2600 3100 1250 3100
+Connection ~ 1250 3100
+Wire Wire Line
+	2750 2600 2750 6300
+Wire Wire Line
+	1250 6750 4350 6750
+Wire Wire Line
+	2050 6650 4350 6650
+Wire Wire Line
+	1450 6450 4350 6450
+Wire Wire Line
+	5150 6350 5250 6350
+Wire Wire Line
+	5250 6350 5250 6300
+Wire Wire Line
+	5250 6300 2750 6300
+Wire Wire Line
+	4150 2600 4150 3300
+Wire Wire Line
+	4150 3300 4050 3300
+Wire Wire Line
+	3550 2600 3550 3300
+Wire Wire Line
+	3550 3300 3700 3300
+Wire Wire Line
+	3950 2600 3950 2750
+Wire Wire Line
+	3950 2750 3900 2750
+Wire Wire Line
+	3900 2750 3900 4200
+Wire Wire Line
+	3900 4200 3850 4200
+Wire Wire Line
+	3850 4200 3850 4100
+Wire Wire Line
+	3500 4100 3500 4300
+Wire Wire Line
+	3500 4300 3150 4300
+Wire Wire Line
+	3150 4300 3150 2900
+Wire Wire Line
+	3150 2900 3750 2900
+Wire Wire Line
+	3750 2900 3750 2600
+Wire Wire Line
+	4550 3300 4550 3100
+Wire Wire Line
+	4550 3100 5750 3100
+Wire Wire Line
+	5750 3100 5750 7200
+Wire Wire Line
+	5750 7200 4050 7200
+Wire Wire Line
+	4050 7200 4050 6650
+Connection ~ 4050 6650
+Wire Wire Line
+	4650 3300 4650 3200
+Wire Wire Line
+	4650 3200 5650 3200
+Wire Wire Line
+	5650 3200 5650 7100
+Wire Wire Line
+	5650 7100 4150 7100
+Wire Wire Line
+	4150 7100 4150 6750
+Connection ~ 4150 6750
+Wire Notes Line
+	800  1100 800  2750
+Wire Notes Line
+	800  2750 1550 2750
+Wire Notes Line
+	1550 2750 1550 1100
+Wire Notes Line
+	1550 1100 800  1100
+Wire Notes Line
+	1600 1100 1600 2750
+Wire Notes Line
+	1600 2750 2200 2750
+Wire Notes Line
+	2200 2750 2200 1100
+Wire Notes Line
+	2200 1100 1600 1100
+Wire Notes Line
+	2250 1100 2250 2750
+Wire Notes Line
+	2250 2750 2900 2750
+Wire Notes Line
+	2900 1100 2250 1100
+Wire Notes Line
+	3200 1100 3200 2700
+Wire Notes Line
+	3200 2700 3650 2700
+Wire Notes Line
+	3650 2700 3650 1100
+Wire Notes Line
+	3650 1100 3200 1100
+Wire Notes Line
+	3700 1100 3700 2700
+Wire Notes Line
+	3700 2700 4000 2700
+Wire Notes Line
+	4000 2700 4000 1100
+Wire Notes Line
+	4000 1100 3700 1100
+Wire Notes Line
+	4050 1100 4050 2700
+Wire Notes Line
+	4050 2700 4450 2700
+Wire Notes Line
+	4450 2700 4450 1100
+Wire Notes Line
+	4450 1100 4050 1100
+Wire Notes Line
+	2900 2750 2900 1100
+Wire Wire Line
+	1050 2600 1050 2800
+$EndSCHEMATC
